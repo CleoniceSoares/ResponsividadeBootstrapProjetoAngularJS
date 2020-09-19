@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html ng-app>
+  <head>
+    <meta charset="utf-8">
+    <title>Projeto AngularJS Responsivo com Bootstrap</title>
+  </head>
+  <body>
+    <div>
+      <h1>Descriçaõ do orçamento financeiro</h1>
+    </div>
+    <div>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+        mollit anim id est laborum.
+      </p>
+    </div>
+    <div class="table-responsive">
+      <table class="table" border="2" width="50%">
+  			<tr>
+  				<th>Código</th>
+  				<th>Produto</th>
+  				<th>preço</th>
+  			</tr>
+  			<tr>
+  				<td>01</td>
+  				<td>Celular</td>
+  				<td>800,50</td>
+  			</tr>
+  			<tr>
+  				<td>02</td>
+  				<td>Tablet</td>
+  				<td>400,50</td>
+  			</tr>
+  			<tr>
+  				<td rowspan="2">Desconto</td>
+  				<td colspan="2">cupom1 - R$10</td>
+  			</tr>
+  			<tr>
+  				<td colspan="2">cupom2 - R$12/td>
+  			</tr>
+  			<tr>
+  				<td>Total</td>
+  				<td colspan="2">R$ 3.478,98</td>
+  			</tr>
+  		</table>
+    </div>
+    <div>
+      <h2>Imagem dos produtos</h2>
+    </div>
+    <img src="data:image/jpeg;base64,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" class="img-fluid" alt="Imagem responsiva">
+    <div>
+      <h1>Conclusões do orçamento</h1>
+    </div>
+    <div>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+        mollit anim id est laborum.
+      </p>
+    </div>
+  </body>
+</html>
